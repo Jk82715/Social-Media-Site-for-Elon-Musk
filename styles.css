@@ -1,0 +1,50 @@
+img {
+    height: 200px;
+    width: 250px;
+   
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    border: inset #44aed6 10px;
+    background-color:#9CDCFF;
+    margin: 10px;
+    padding: 5px;
+}
+.intro{
+    border: inset #44aed6 10px;
+    background-color:#9CDCFF;
+     margin: 10px;
+    padding: 5px;
+}
+p{
+    font-size:20px;
+    font-family:Source Sans Pro;
+    color: black;
+}
+.posts{
+    display: flex;
+    justify-content: space-around;
+    border: inset #44aed6 10px;
+    background-color:#9CDCFF;
+    margin: 10px;
+    padding: 5px;
+}
+body {
+    background: linear-gradient(-45deg, #76D7C4, #85C1E9, #C39BD3, #F56E6E, #F56E6E);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
